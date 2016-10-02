@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>0071196c-1bdc-4cf6-98bd-17c0f7f6734f</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Assets">
+      <UniqueIdentifier>50585db1-f1c5-4002-88f8-143c5766183a</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Commande.cpp" />
+    <ClCompile Include="testclasse.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="vue0.xaml.cpp" />
+    <ClCompile Include="Interpreteur.cpp" />
+    <ClCompile Include="Heritage.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="popup.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Commande.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="hanoi.h" />
+    <ClInclude Include="testclasse.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="graph_test.h" />
+    <ClInclude Include="arbre.h" />
+    <ClInclude Include="foncteur.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="vue0.xaml.h" />
+    <ClInclude Include="Interpreteur.h" />
+    <ClInclude Include="Heritage.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="constmutable.h" />
+    <ClInclude Include="popup.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Common\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="vue0.xaml" />
+    <Page Include="popup.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="App1.rc" />
+  </ItemGroup>
+</Project>
